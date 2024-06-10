@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="" class="../reset.css">
+
+<style>
+
+    header {
+    height: 80px;
+    font-size: 64px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    }
+
+    .container {
+        display: flex;
+        height: 400px;
+        gap: 8px;
+        margin-bottom: 8px;
+    }
+
+    .container > aside {
+        flex-grow: 1;
+        height: 100%;
+
+    }
+/* flext grow 대신으로 width:100% 주고 main은 고정값 */
+    .container > main {
+        flex-grow: 2;
+        height: 100%;
+    }
+
+    /* flex 대신에 
+    width: 800px 고정값주고
+    flex-shrink: 0; 을 줄 수도 있다 */
+    .align-text {
+        font-size: 64px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color: gray;
+    }
+
+
+</style>
+<body>
+    <!-- 웹 페이지의 머릿글 -->
+    <head></head>
+
+    <!-- 웹 페이지의 바닥글 -->
+    <footer></footer>
+
+    <!-- 링크의 모음 (네비게이션) -->
+    <nav></nav>
+
+    <!-- 해당 페이지의 주요 내용이 들어가는 영역 -->
+    <main></main>
+
+    <!-- 본문의 내용과 상관없는 영역 (주로 광고가 들어감) -->
+    <aside></aside>
+
+<header class="align-text">
+    header
+</header>
+
+<div class="container">
+    <aside class="align-text">aside</aside>
+    <main class="align-text">main</main>
+    <aside class="align-text">aside</aside>
+</div>
+
+<footer class="align-text">
+    footer
+</footer>
+
+</body>
+</html>
