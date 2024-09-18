@@ -1,0 +1,64 @@
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Jihyun's Recipe</h1>
+            <p>Welcome to my recipe page! Here you'll find a step-by-step guide to making this delicious dish.</p>
+        </header>
+
+        <section class="recipe-ingredients">
+            <h2>Ingredients</h2>
+            <ul>
+                <li>Rice</li>
+                <li>Kimchi</li>
+                <li>Bacon</li>
+                <li>Green Onion</li>
+                <li>Onion</li>
+                <li>Egg</li>
+                <li>Sesame Oil</li>
+                <li>Sesame</li>
+                <li>Oil</li>
+                <li>Pepper Powder</li>
+                <!-- Add more ingredients as needed -->
+            </ul>
+        </section>
+
+        <section class="recipe-steps">
+            <h2>Preparation Steps</h2>
+            <ul>
+                <li>
+                    <p>
+                        <strong>Step 1</strong> Cut the Napa cabbage into 1 cm square pieces, and chop the onion coarsely.<br>
+                    Slice the green onions, and cut the bacon into bite-sized pieces.<br>
+                    Mix the seasoning ingredients in a bowl.</p>
+                    <img src="/Users/eunicejung/Desktop/Module2/imgs/step1.jpg">
+                </li>
+                <li>
+                    <p>
+                        <strong>Step 2</strong> Heat a pan with a bit of oil and cook the bacon until it’s browned.<br>
+                     Then add the onion and kimchi, and stir-fry over medium heat for about 2 minutes.<br>
+                      Next, add the seasoning and mix everything together.</p>
+                    <img src="/Users/eunicejung/Desktop/Module2/imgs/step2.jpg">
+                </li>
+                <li>
+                    <p>
+                        <strong>Step 3</strong> Add the rice and stir-fry, mixing it thoroughly with a spatula as if dividing the rice.<br>
+                     Finally, add the sesame oil.</p>
+                    <img src="/Users/eunicejung/Desktop/Module2/imgs/step3.jpg">
+                </li>
+                <li>
+                    <p>
+                        <strong>Step 4</strong> Serve the kimchi fried rice in a bowl, and sprinkle with sesame seeds and sliced green onions.<br>
+                     Adding a fried egg on the side enhances the flavor.</p>
+                    <img src="/Users/eunicejung/Desktop/Module2/imgs/step4.jpg">
+                <!-- Add more steps as needed -->
+            </ul>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Jihyun Jung. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
